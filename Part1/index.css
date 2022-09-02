@@ -1,0 +1,49 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    width:100%;
+    height:100vh;
+    padding: 0 5%;
+    background-color: rgb(1,1,1);
+}
+
+.carousel-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+    margin: 0 5% ;
+    padding: 1% 5% 5% 5%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 40px rgb(0, 21, 255);
+    color: white;
+    background-color: rgb(24, 24, 24);
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title {
+    font-size: 100px;
+}
+
+.end-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.but {
+   width: 40px;
+   height: 40px;
+   border-radius: 10px;
+   border: 1px solid rgb(0, 21, 255);;
+   background-color: black;
+   color: rgb(0, 21, 255);;
+   font-weight: bolder;
+}
