@@ -1,0 +1,42 @@
+@import url("https://use.typekit.net/rsw3bla.css");
+
+.games-bigcontainer {
+    display: flex;
+    gap: 20px;
+    width:100%;
+    font-family: rubik, sans-serif
+}
+
+.games-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 50%;
+    background-color:#1A1A1A ;
+}
+
+.games-title {
+    color:white;
+}
+
+.games-subtitle {
+    color:#FF6801;
+    font-size: 12px;
+}
+
+.games-section {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.template-games-container {
+    width:100%;
+    display: flex;
+    gap:10px;
+}
+

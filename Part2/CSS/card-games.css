@@ -1,0 +1,135 @@
+@import url("https://use.typekit.net/rsw3bla.css");
+
+/*TODOS LOS CONTENEDORES*/
+
+.card-game-container {
+    width: 100%;
+    font-family: rubik, sans-serif;
+    font-size: 12px;
+    color:white;
+    border-radius: 10px;
+}
+
+.card-game-link {
+    text-decoration: none;
+}
+
+.game-card-img {
+    width:100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.game-card-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+}
+
+.view-more {
+    background: none;
+    border-radius: 10px;
+    width:30%;
+    padding: 5px 0;
+    color:white;
+    cursor: pointer;
+}
+
+.section-games-title {
+    width:100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/*CONTENEDOR TOP SLOTS*/
+
+.top-slots .card-game-container {
+    background-color: #6937E6;
+}
+
+.top-slots .view-more {
+    border: 2px solid #6937E6;
+}
+
+.top-slots .section-games-title {
+    background-color: #6937E6;
+}
+
+/*CONTENEDOR LIVE CASINO*/
+
+.live-casino .card-game-container {
+    background-color: #EFFD5F;
+    color:black;
+}
+
+.live-casino .view-more {
+    border: 2px solid #EFFD5F;
+}
+
+.live-casino .section-games-title {
+    background-color: #EFFD5F;
+    color:black;
+}
+
+/*CONTENEDOR MOST POPULAR GAMES*/
+
+.most-popular-games .card-game-container {
+    background-color: #E0773E;
+}
+
+.most-popular-games .view-more {
+    border: 2px solid #E0773E;
+}
+
+.most-popular-games .section-games-title {
+    background-color: #E0773E;
+}
+
+/*CONTENEDOR GAME TYPES*/
+
+.game-types .card-game-container {
+    background-color: #C8302F;
+}
+
+.game-types .view-more {
+    border: 2px solid #C8302F;
+}
+
+.game-types .section-games-title {
+    background-color: #C8302F;
+}
+
+/*CONTENEDOR FEATURED PROMOTIONS*/
+
+.featured-promotions .card-game-container {
+    background-color: #6FE3A6;
+    color:black;
+}
+
+.featured-promotions .view-more {
+    border: 2px solid #6FE3A6;
+}
+
+.featured-promotions .section-games-title {
+    background-color: #6FE3A6;
+    color:black;
+}
+
+/*CONTENEDOR RECURRING TOURNAMENTS SERIES*/
+
+.recurring .card-game-container {
+    background-color: #0D49F5;
+}
+
+.recurring .view-more {
+    border: 2px solid #0D49F5;
+}
+
+.recurring .section-games-title {
+    background-color: #0D49F5;
+}

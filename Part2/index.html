@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="nav.css" />
-    <link rel="stylesheet" href="hero-section.css" />
-    <link rel="stylesheet" href="cards&pros.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/nav.css" />
+    <link rel="stylesheet" href="CSS/hero-section.css" />
+    <link rel="stylesheet" href="CSS/cards&pros.css" />
+    <link rel="stylesheet" href="CSS/games.css" />
+    <link rel="stylesheet" href="CSS/card-games.css" />
+    <link rel="stylesheet" href="CSS/testimonials.css" />
     <title>Document</title>
   </head>
   <body>
@@ -44,7 +47,7 @@
     </nav>
 
     <main>
-      <section class="hero">
+      <section id="hero">
         <div class="hero-section">
           <div class="welcome-bonus">
             <h1 class="welcome-title">GET YOUR $3,000 WELCOME BONUS</h1>
@@ -58,9 +61,89 @@
         </div>
       </section>
 
-      <section class="cards">
+      <section id="cards">
         <div class="boxes-container"></div>
         <div class="pros-container"></div>
+      </section>
+
+      <section id="games">
+        <div class="games-bigcontainer">
+          <div class="games-container">
+            <h1 class="games-title">CASINO GAMES</h1>
+            <p class="games-subtitle">OVER 250 GAMES AVAILABLE</p>
+            <div class="games-section top-slots">
+              
+            </div>
+          </div>
+
+          <div class="games-container">
+            <h1 class="games-title">POKER GAMES</h1>
+            <p class="games-subtitle">HIT THE FELT 24/7</p>
+
+            <div class="games-section game-types poker-games-container">
+                
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="testimonials-title">TESTIMONIALS</h2>
+        <div class="testimonials-container">
+            <div class="testimonials-card">
+                <div class="quotes-top">
+                    <img src="/FE Test v2/assets/quote.png" alt="quotes-img" class="quotes-img"/>
+                </div>
+                <div class="testimonials-text-container">
+                    <p class="testimonials-text">I find the live casino games entertaining, and I like how Ignition has a lots of Crypto options.</p>
+                </div>
+                <div class="quotes-bottom">
+                    <img src="/FE Test v2/assets/quote - copia.png" alt="quotes-img" class="quotes-img"/>
+                </div>
+                <h6 class="testimonials-end">JHON. B</h6>
+            </div>
+
+            <div class="testimonials-card">
+                <div>
+                <div class="quotes-top">
+                    <img src="/FE Test v2/assets/quote.png" alt="quotes-img" class="quotes-img"/>
+                </div>
+                <div class="testimonials-text-container">
+                    <p class="testimonials-text">Ignition is a site I log onto so that I can relax, have some fun and, most importantly, win poker.</p>
+                </div>
+                <div class="quotes-bottom">
+                    <img src="/FE Test v2/assets/quote - copia.png" alt="quotes-img" class="quotes-img"/>
+                </div>
+                </div>
+                <h6 class="testimonials-end">CAMRON. A</h6>
+            </div>
+
+            <div class="testimonials-card">
+                <div class="quotes-top">
+                    <img src="/FE Test v2/assets/quote.png" alt="quotes-img" class="quotes-img"/>
+                </div>
+                <div class="testimonials-text-container">
+                    <p class="testimonials-text">Sites shouldn't make it hard for you to withdraw. Ignition isn't like that. It's so easy and quick to get your money out.</p>
+                </div>
+                <div class="quotes-bottom">
+                    <img src="/FE Test v2/assets/quote - copia.png" alt="quotes-img" class="quotes-img"/>
+                </div>
+                <h6 class="testimonials-end">EDD. C</h6>
+            </div>
+
+            <div class="testimonials-card">
+                <div class="quotes-top">
+                    <img src="/FE Test v2/assets/quote.png" alt="quotes-img" class="quotes-img"/>
+                </div>
+                <div class="testimonials-text-container">
+                    <p class="testimonials-text">One of the best parts of Ignition is its customer service. You can chat with someone in real time, and they are super helpful.</p>
+                </div>
+                <div class="quotes-bottom">
+                    <img src="/FE Test v2/assets/quote - copia.png" alt="quotes-img" class="quotes-img"/>
+                </div>
+                <h6 class="testimonials-end">PAULOS. S</h6>
+            </div>
+        </div>
+        
       </section>
     </main>
 
@@ -85,7 +168,53 @@
       </div>
     </template>
 
-    <script src="cards.js"></script>
-    <script src="pros.js"></script>
+    <template id="template-game">
+      <h2 class="section-games-title">TOP SLOTS</h2>
+        <div class="template-games-container">
+          <a href="#" class="card-game-link">
+            <div class="card-game-container c1">
+              <img
+                src="/FE Test v2/assets/reels-and-wheels.jpeg"
+                alt="game-picture"
+                class="game-card-img i1"
+              />
+              <div class="game-card-text-container">
+                <p class="game-cards-text t1">REELS & WHEELS</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card-game-link">
+            <div class="card-game-container c2">
+              <img
+                src="/FE Test v2/assets/reels-and-wheels.jpeg"
+                alt="game-picture"
+                class="game-card-img i2"
+              />
+              <div class="game-card-text-container">
+                <p class="game-cards-text t2">REELS & WHEELS</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card-game-link">
+            <div class="card-game-container c3">
+              <img
+                src="/FE Test v2/assets/reels-and-wheels.jpeg"
+                alt="game-picture"
+                class="game-card-img i3"
+              />
+              <div class="game-card-text-container">
+                <p class="game-cards-text3 t3">REELS & WHEELS</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      <button class="view-more">VIEW MORE</button>
+    </template>
+
+
+
+    <script src="JS/cards.js"></script>
+    <script src="JS/pros.js"></script>
+    <script src="JS/game.js"></script>
   </body>
 </html>
