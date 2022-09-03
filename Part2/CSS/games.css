@@ -18,6 +18,7 @@
 
 .games-title {
     color:white;
+    text-align: center;
 }
 
 .games-subtitle {
@@ -30,7 +31,6 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    align-items: center;
     margin: 15px 0;
 }
 
@@ -38,5 +38,33 @@
     width:100%;
     display: flex;
     gap:10px;
+}
+
+@media (max-width:900px) {
+    .template-games-container {
+        width:150%;
+    }
+
+    .games-section {
+        overflow: hidden;
+    }
+}
+
+@media (max-width:600px) {
+    .games-title {
+        font-size: 15px;
+    }
+
+    .games-subtitle {
+        font-size: 10px;
+    }
+
+    .games-bigcontainer {
+        flex-direction: column;
+    }
+
+    .games-container {
+        width:100%;
+    }
 }
 

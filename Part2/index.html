@@ -10,39 +10,57 @@
     <link rel="stylesheet" href="CSS/games.css" />
     <link rel="stylesheet" href="CSS/card-games.css" />
     <link rel="stylesheet" href="CSS/testimonials.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
     <title>Document</title>
   </head>
   <body>
     <nav>
-      <div class="nav-casino-name">
-        <img
-          src="/FE Test v2/assets/logo.svg"
-          class="nav-logo"
-          alt="Ignition logo"
-        />
-      </div>
-      <div class="nav-ul-container">
-        <ul class="nav-ul">
-          <li class="nav-li">
-            <a href="#" class="nav-a">POKER</a>
-          </li>
-          <li class="nav-li">
-            <a href="#" class="nav-a">CASINO</a>
-          </li>
-          <li class="nav-li">
-            <a href="#" class="nav-a">LIVE DEALER</a>
-          </li>
-          <li class="nav-li">
-            <a href="#" class="nav-a">VIRTUAL SPORTS</a>
-          </li>
-          <li class="nav-li">
-            <a href="#" class="nav-a">PROMOTIONS</a>
-          </li>
-        </ul>
-      </div>
-      <div class="nav-join-login">
-        <button class="join but">JOIN</button>
-        <a href="#" class="nav-a">LOGIN</a>
+      <div id="nav-desktop">
+        <div class="nav-casino-name">
+          <img
+            src="/FE Test v2/assets/logo.svg"
+            class="nav-logo"
+            alt="Ignition logo"
+          />
+        </div>
+          <div class="nav-ul-desktop">
+                <a href="#" class="nav-a">POKER</a>
+                <a href="#" class="nav-a">CASINO</a>
+                <a href="#" class="nav-a">LIVE DEALER</a>
+                <a href="#" class="nav-a">VIRTUAL SPORTS</a>
+                <a href="#" class="nav-a">PROMOTIONS</a>
+          </div>
+          <div class="nav-join-login">
+            <button class="but">JOIN</button>
+            <a href="#" class="nav-a">LOGIN</a>
+          </div>
+        </div>
+        
+      <div id="nav-mobile">
+        <div class="nav-casino-name">
+          <img
+            src="/FE Test v2/assets/logo.svg"
+            class="nav-logo"
+            alt="Ignition logo"
+          />
+        </div>
+        <div class="nav-join-login">
+          <button class="but">JOIN</button>
+          <a href="#" class="nav-a">LOGIN</a>
+        </div>
+        <div id="burguer">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
+        <div class="nav-ul-mobile">
+          <a href="#" class="nav-a">POKER</a>
+          <a href="#" class="nav-a">CASINO</a>
+          <a href="#" class="nav-a">LIVE DEALER</a>
+          <a href="#" class="nav-a">VIRTUAL SPORTS</a>
+          <a href="#" class="nav-a">PROMOTIONS</a>
+    </div>
+      
       </div>
     </nav>
 
@@ -62,8 +80,10 @@
       </section>
 
       <section id="cards">
-        <div class="boxes-container"></div>
-        <div class="pros-container"></div>
+        <div class="card-general-container">
+          <div class="boxes-container"></div>
+          <div class="pros-container"></div>
+        </div>
       </section>
 
       <section id="games">
@@ -71,7 +91,7 @@
           <div class="games-container">
             <h1 class="games-title">CASINO GAMES</h1>
             <p class="games-subtitle">OVER 250 GAMES AVAILABLE</p>
-            <div class="games-section top-slots">
+            <div class="games-section">
               
             </div>
           </div>
@@ -87,65 +107,62 @@
       </section>
 
       <section>
-        <h2 class="testimonials-title">TESTIMONIALS</h2>
-        <div class="testimonials-container">
-            <div class="testimonials-card">
-                <div class="quotes-top">
-                    <img src="/FE Test v2/assets/quote.png" alt="quotes-img" class="quotes-img"/>
-                </div>
-                <div class="testimonials-text-container">
-                    <p class="testimonials-text">I find the live casino games entertaining, and I like how Ignition has a lots of Crypto options.</p>
-                </div>
-                <div class="quotes-bottom">
-                    <img src="/FE Test v2/assets/quote - copia.png" alt="quotes-img" class="quotes-img"/>
-                </div>
-                <h6 class="testimonials-end">JHON. B</h6>
+        <div class="testimonials-section">
+          <h2 class="testimonials-title">TESTIMONIALS</h2>
+          <div class="test-big-cont">
+            <div class="testimonials-container">
+              
             </div>
-
-            <div class="testimonials-card">
-                <div>
-                <div class="quotes-top">
-                    <img src="/FE Test v2/assets/quote.png" alt="quotes-img" class="quotes-img"/>
-                </div>
-                <div class="testimonials-text-container">
-                    <p class="testimonials-text">Ignition is a site I log onto so that I can relax, have some fun and, most importantly, win poker.</p>
-                </div>
-                <div class="quotes-bottom">
-                    <img src="/FE Test v2/assets/quote - copia.png" alt="quotes-img" class="quotes-img"/>
-                </div>
-                </div>
-                <h6 class="testimonials-end">CAMRON. A</h6>
-            </div>
-
-            <div class="testimonials-card">
-                <div class="quotes-top">
-                    <img src="/FE Test v2/assets/quote.png" alt="quotes-img" class="quotes-img"/>
-                </div>
-                <div class="testimonials-text-container">
-                    <p class="testimonials-text">Sites shouldn't make it hard for you to withdraw. Ignition isn't like that. It's so easy and quick to get your money out.</p>
-                </div>
-                <div class="quotes-bottom">
-                    <img src="/FE Test v2/assets/quote - copia.png" alt="quotes-img" class="quotes-img"/>
-                </div>
-                <h6 class="testimonials-end">EDD. C</h6>
-            </div>
-
-            <div class="testimonials-card">
-                <div class="quotes-top">
-                    <img src="/FE Test v2/assets/quote.png" alt="quotes-img" class="quotes-img"/>
-                </div>
-                <div class="testimonials-text-container">
-                    <p class="testimonials-text">One of the best parts of Ignition is its customer service. You can chat with someone in real time, and they are super helpful.</p>
-                </div>
-                <div class="quotes-bottom">
-                    <img src="/FE Test v2/assets/quote - copia.png" alt="quotes-img" class="quotes-img"/>
-                </div>
-                <h6 class="testimonials-end">PAULOS. S</h6>
-            </div>
+          </div>
         </div>
         
       </section>
+
     </main>
+    
+    <footer>
+      <div class="footer-top">
+        <div class="left">
+            <img src="/FE Test v2/assets/trusted-experience.png" alt="logo" class="left-title-img"/>
+          <div class="left-row1">
+            <img src="/FE Test v2/assets/bitcoin.png" alt="logo-bitcoin" class="left-img"/>
+            <img src="/FE Test v2/assets/bitcoin-cash.png" alt="logo-bitcoin-cash" class="left-img"/>
+            <img src="/FE Test v2/assets/litecoin.png" alt="logo-litecoin" class="left-img"/>
+            <img src="/FE Test v2/assets/ethereum.png" alt="logo-ethereum" class="left-img"/>
+            <img src="/FE Test v2/assets/tether.png" alt="logo-tether" class="left-img"/>
+          </div>
+          <div class="left-row2">
+            <img src="/FE Test v2/assets/visa.png" alt="logo visa" class="left-img">
+            <img src="/FE Test v2/assets/maestro.png" alt="logo maestro" class="left-img">
+            <img src="/FE Test v2/assets/secure-icon.png" alt="logo secure" class="left-img">
+          </div>
+          <div class="left-row3">
+            <img src="/FE Test v2/assets/ft_ga.png" alt="logo" class="left-img1">
+            <img src="/FE Test v2/assets/ft_18.png" alt="logo" class="left-img1">
+          </div>
+        </div>
+        <div class="middle">
+            <p class="footer-text"><strong>ABOUT US</strong></p>
+            <p class="footer-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus beatae minima nam a nulla architecto, iste laudantium, repudiandae labore cupiditate obcaecati repellat non consequatur harum? Ab alias consequuntur placeat dignissimos.</p>
+        </div>
+        <div class="right">
+            <p class="footer-text"><strong>CUSTOMER SERVICE</strong></p>
+            <p class="footer-text">FAQ</p>
+            <p class="footer-text">Help Center</p>
+            <div class="footer-text-container">
+              <p class="footer-text">Follow us</p>
+              <img src="/FE Test v2/assets/twitter.png" alt="logo twitter" class="left-img1">
+              <img src="/FE Test v2/assets/instagram.png" alt="logo instagram" class="left-img1">
+            </div>
+            <p class="footer-text">Terms of Use</p>
+            <p class="footer-text">Privacy Policy</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <button class="join-bottom"><strong>JOIN INSTANTLY</strong></button>
+        <p class="foot-text">CLAIM YOUR WELCOME BONUS AND START WINNING!</p>
+      </div>
+    </footer>
 
     <template id="template-card">
       <div class="card-container">
@@ -208,13 +225,31 @@
             </div>
           </a>
         </div>
-      <button class="view-more">VIEW MORE</button>
+        <div class="game-button">
+          <button class="view-more">VIEW MORE</button>
+        </div>
+    </template>
+
+    <template id="template-testimonials">
+      <div class="testimonials-card">
+        <div class="quotes-top">
+            <img src="/FE Test v2/assets/quote.png" alt="quotes-img" class="quotes-img"/>
+        </div>
+        <div class="testimonials-text-container">
+            <p class="testimonials-text"></p>
+        </div>
+        <div class="quotes-bottom">
+            <img src="/FE Test v2/assets/quote - copia.png" alt="quotes-img" class="quotes-img"/>
+        </div>
+        <h6 class="testimonials-end"></h6>
+    </div>
     </template>
 
 
-
+    <script src="JS/nav.js"></script>
     <script src="JS/cards.js"></script>
     <script src="JS/pros.js"></script>
     <script src="JS/game.js"></script>
+    <script src="JS/testimonials.js"></script>
   </body>
 </html>

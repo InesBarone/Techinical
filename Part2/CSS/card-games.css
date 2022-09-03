@@ -11,6 +11,7 @@
 }
 
 .card-game-link {
+    width:33%;
     text-decoration: none;
 }
 
@@ -25,6 +26,12 @@
     align-items: center;
     height: 50px;
     text-align: center;
+}
+
+.game-button {
+    display: flex;
+    justify-content: center;
+    width:100%;
 }
 
 .view-more {
@@ -46,90 +53,21 @@
     font-weight: lighter;
 }
 
-/*CONTENEDOR TOP SLOTS*/
+@media (max-width:900px) {
+    .card-game-link {
+        width:50%;
+    }
 
-.top-slots .card-game-container {
-    background-color: #6937E6;
+    .view-more {
+        width:60%;
+    }
+
+    .section-games-title {
+        font-size: 10px;
+    }
+
+    .game-card-text-container {
+        font-size: 8px;
+    }
 }
 
-.top-slots .view-more {
-    border: 2px solid #6937E6;
-}
-
-.top-slots .section-games-title {
-    background-color: #6937E6;
-}
-
-/*CONTENEDOR LIVE CASINO*/
-
-.live-casino .card-game-container {
-    background-color: #EFFD5F;
-    color:black;
-}
-
-.live-casino .view-more {
-    border: 2px solid #EFFD5F;
-}
-
-.live-casino .section-games-title {
-    background-color: #EFFD5F;
-    color:black;
-}
-
-/*CONTENEDOR MOST POPULAR GAMES*/
-
-.most-popular-games .card-game-container {
-    background-color: #E0773E;
-}
-
-.most-popular-games .view-more {
-    border: 2px solid #E0773E;
-}
-
-.most-popular-games .section-games-title {
-    background-color: #E0773E;
-}
-
-/*CONTENEDOR GAME TYPES*/
-
-.game-types .card-game-container {
-    background-color: #C8302F;
-}
-
-.game-types .view-more {
-    border: 2px solid #C8302F;
-}
-
-.game-types .section-games-title {
-    background-color: #C8302F;
-}
-
-/*CONTENEDOR FEATURED PROMOTIONS*/
-
-.featured-promotions .card-game-container {
-    background-color: #6FE3A6;
-    color:black;
-}
-
-.featured-promotions .view-more {
-    border: 2px solid #6FE3A6;
-}
-
-.featured-promotions .section-games-title {
-    background-color: #6FE3A6;
-    color:black;
-}
-
-/*CONTENEDOR RECURRING TOURNAMENTS SERIES*/
-
-.recurring .card-game-container {
-    background-color: #0D49F5;
-}
-
-.recurring .view-more {
-    border: 2px solid #0D49F5;
-}
-
-.recurring .section-games-title {
-    background-color: #0D49F5;
-}

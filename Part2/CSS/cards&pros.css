@@ -64,3 +64,36 @@
 .pros-img {
     width:50px;
 }
+
+@media (max-width:900px) {
+    .boxes-container {
+        width:200%;
+    }
+
+    .pros-container {
+        width:200%;
+    }
+
+    .card-general-container {
+        overflow-x: scroll;
+        margin: 20px 0;
+    }
+
+    
+}
+
+@media (max-width:600px) {
+    .card-title {
+        font-size: 10px;
+        font-weight: lighter;
+    }
+
+    .card-container .but {
+        font-size: 8px;
+        width:50%;
+    }
+
+    .pros{
+        font-size: 7px;
+    }
+}
