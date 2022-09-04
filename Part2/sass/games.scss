@@ -1,0 +1,72 @@
+@import url("https://use.typekit.net/rsw3bla.css");
+
+$backgroundGray: #333333;
+$orange: #FF6801;
+
+.games-bigcontainer {
+    display: flex;
+    gap: 20px;
+    width:100%;
+    font-family: rubik, sans-serif;
+
+    .games-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        width: 50%;
+        background-color:#1A1A1A ;
+
+        .games-title {
+            color:white;
+            text-align: center;
+        }
+
+        .games-subtitle {
+            color: $orange;
+            font-size: 12px;
+        }
+
+        .games-section {
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin: 15px 0;
+
+            .template-games-container {
+                width:100%;
+                display: flex;
+                gap:10px;
+            }
+        }
+    }
+}
+
+@media (max-width:900px) {
+    .games-section {
+        overflow: hidden;
+
+        .template-games-container {
+            width:150%;
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .games-bigcontainer {
+        flex-direction: column;
+
+        .games-container {
+            width:100%;
+
+            .games-subtitle {
+                font-size: 10px;
+            }
+
+            .games-title {
+                font-size: 15px;
+            }
+        }
+    } 
+}

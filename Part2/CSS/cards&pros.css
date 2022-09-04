@@ -1,99 +1,84 @@
 @import url("https://use.typekit.net/rsw3bla.css");
-
 #cards {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-
-.boxes-container {
-    display: flex;
-    justify-content: space-between;
-    font-family: rubik, sans-serif;
+#cards .boxes-container {
+  display: flex;
+  justify-content: space-between;
+  font-family: rubik, sans-serif;
 }
-
-.card-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:19%;
-    padding: 10px 0;
-    margin: 20px 0px;
-    background-color: #1A1A1A;
-    border-radius: 10px;
-    color: white;
+#cards .boxes-container .card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 19%;
+  padding: 10px 0;
+  margin: 20px 0px;
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  color: white;
 }
-
-.card-title-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height:80px;
+#cards .boxes-container .card-container .card-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
 }
-
-.card-title {
-    text-align: center;
-    width:70%;
-    font-size: 15px;
+#cards .boxes-container .card-container .card-title-container .card-title {
+  text-align: center;
+  width: 70%;
+  font-size: 15px;
 }
-
-.card-container .but {
-    width:70%;
-    background:none;
-    border: 2px solid white;
-    border-radius: 10px;
+#cards .boxes-container .card-container .but {
+  width: 70%;
+  background: none;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 /*PROS */
-
 .pros-container {
-    display: flex;
-    justify-content: space-between;
-    font-family: rubik, sans-serif;
-    margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  font-family: rubik, sans-serif;
+  margin: 10px 0px;
+}
+.pros-container .pros {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 19%;
+  font-size: 10px;
+  color: white;
+}
+.pros-container .pros-img {
+  width: 50px;
 }
 
-.pros {
-    display: flex;
-    align-items: center;
-    gap:5px;
-    width:19%;
-    font-size: 10px;
-    color:white;
+@media (max-width: 900px) {
+  .card-general-container {
+    overflow-x: scroll;
+    margin: 20px 0;
+  }
+  .boxes-container {
+    width: 200%;
+  }
+  .pros-container {
+    width: 200%;
+  }
+}
+@media (max-width: 600px) {
+  .card-title {
+    font-weight: lighter;
+  }
+  .card-container .but {
+    font-size: 8px;
+    width: 50%;
+  }
+  .pros {
+    font-size: 7px;
+  }
 }
 
-.pros-img {
-    width:50px;
-}
-
-@media (max-width:900px) {
-    .boxes-container {
-        width:200%;
-    }
-
-    .pros-container {
-        width:200%;
-    }
-
-    .card-general-container {
-        overflow-x: scroll;
-        margin: 20px 0;
-    }
-
-    
-}
-
-@media (max-width:600px) {
-    .card-title {
-        font-size: 10px;
-        font-weight: lighter;
-    }
-
-    .card-container .but {
-        font-size: 8px;
-        width:50%;
-    }
-
-    .pros{
-        font-size: 7px;
-    }
-}
+/*# sourceMappingURL=cards&pros.css.map */

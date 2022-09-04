@@ -1,0 +1,102 @@
+@import url("https://use.typekit.net/rsw3bla.css");
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(1,1,1);
+    height:100vh;
+}
+
+.back-text {
+    font-family: rubik, sans-serif;
+    color:white;
+    padding:20px;
+}
+
+.back-div {
+    display: flex;
+    align-items: center;
+    background-color: rgb(1,1,1);
+}
+
+.back-div .but {
+    border: 1px solid white;
+    color:white;
+    width:30px;
+    height:30px;
+    margin-left:10px;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    width:100%;
+    padding: 0 5%;
+}
+
+.carousel-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+    margin: 0 5% ;
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 40px rgb(0, 21, 255);
+    color: white;
+    background-color: rgb(24, 24, 24);
+    border-radius: 20px;
+    font-family: rubik, sans-serif;
+}
+
+.title {
+    font-size: 100px;
+}
+
+.end-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.but {
+   width: 40px;
+   height: 40px;
+   border-radius: 10px;
+   border: 1px solid rgb(0, 21, 255);;
+   background-color: black;
+   color: rgb(0, 21, 255);;
+   font-weight: bolder;
+   cursor: pointer;
+}
+
+@media (max-width:900px) {
+    .main {
+        align-items: flex-start;
+    }
+
+    .carousel-card {
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .end-card {
+        flex-direction: column;
+        align-items: center;
+        gap:20px;
+    }
+
+    .rate-div {
+        display: flex;
+        justify-content: center;
+        gap:5px;
+    }
+}

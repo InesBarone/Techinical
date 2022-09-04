@@ -1,0 +1,73 @@
+@import url("https://use.typekit.net/rsw3bla.css");
+
+.section-games-title {
+    width:100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.card-game-link {
+    width:33%;
+    text-decoration: none;
+
+    .card-game-container {
+        width: 100%;
+        font-family: rubik, sans-serif;
+        font-size: 12px;
+        color:white;
+        border-radius: 10px;
+
+        .game-card-img {
+            width:100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .game-card-text-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            text-align: center;
+        }
+    }
+}
+
+.game-button {
+    display: flex;
+    justify-content: center;
+    width:100%;
+
+    .view-more {
+        background: none;
+        border-radius: 10px;
+        width:30%;
+        padding: 5px 0;
+        color:white;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:900px) {
+    .section-games-title {
+        font-size: 10px;
+    }
+
+    .card-game-link {
+        width:50%;
+
+        .game-card-text-container {
+            font-size: 8px;
+        }
+    }
+
+    .game-button {
+        .view-more {
+            width:60%;
+            font-size: 10px;
+        }
+    }
+}

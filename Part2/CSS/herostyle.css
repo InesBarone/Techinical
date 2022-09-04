@@ -1,0 +1,85 @@
+@import url("https://use.typekit.net/rsw3bla.css");
+main {
+  position: relative;
+  top: 70px;
+  padding: 0 5%;
+  background-color: #333333;
+  z-index: 0;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/FE Test v2/assets/hero-banner.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 360px;
+  color: white;
+  font-family: rubik, sans-serif;
+}
+.hero-section .welcome-bonus {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 330px;
+  left: 5%;
+  position: relative;
+  font-size: 25px;
+}
+.hero-section .welcome-bonus .but {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.hero-section .benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  position: relative;
+  width: 30%;
+  right: 5%;
+}
+.hero-section .benefits .but {
+  width: 120px;
+  border: 2px solid #FF6801;
+  border-radius: 10px;
+  background: none;
+  color: #FF6801;
+}
+
+@media (max-width: 900px) {
+  .welcome-bonus {
+    width: 200px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-section {
+    height: 200px;
+  }
+  .hero-section .welcome-bonus {
+    width: 100px;
+    font-size: 10px;
+  }
+  .hero-section .benefits {
+    width: 200px;
+    font-size: 8px;
+    position: absolute;
+    top: 5px;
+    right: 10%;
+  }
+  .hero-section .benefits .but {
+    width: 60px;
+    height: 20px;
+    font-size: 7px;
+  }
+  .hero-section .benefits .benefits-title {
+    text-align: end;
+  }
+}
+
+/*# sourceMappingURL=herostyle.css.map */

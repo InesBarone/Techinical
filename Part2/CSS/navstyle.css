@@ -1,0 +1,166 @@
+@import url("https://use.typekit.net/rsw3bla.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*DESKTOP*/
+#nav-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: #333333;
+  color: white;
+  font-family: rubik, sans-serif;
+  box-shadow: 0px 0px 20px black;
+  z-index: 1;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-logo-div {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+.nav-logo-div .nav-logo {
+  height: 40px;
+}
+
+.nav-ul-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 40%;
+}
+
+.nav-join-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 25%;
+}
+
+.but {
+  background-color: #FF6801;
+  width: 70px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.bit {
+  background: none;
+  border: 1px solid #FF6801;
+  color: #FF6801;
+  width: 80px;
+  font-size: 10px;
+}
+
+/*MOBILE*/
+#nav-mobile {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background-color: #333333;
+  color: white;
+  font-family: rubik, sans-serif;
+  box-shadow: 0px 0px 20px black;
+  z-index: 1;
+}
+
+#nav-mobile div:nth-child(4) {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1A1A1A;
+  width: 100vw;
+  height: 0px;
+  position: fixed;
+  top: 70px;
+  left: 0px;
+  transition: all 250ms ease-out;
+}
+
+.nav-ul-mobile .nav-a {
+  background-color: #333333;
+  width: 80%;
+  padding: 1%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#nav-mobile div.open:nth-child(4) {
+  height: 180px;
+  z-index: 1;
+}
+
+/*BURGUER*/
+#burguer {
+  min-width: 20px;
+  min-height: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 10%;
+  cursor: pointer;
+}
+#burguer span {
+  border-radius: 5px;
+  background-color: black;
+  width: 100%;
+  height: 2px;
+  transition: all 300ms ease-out;
+}
+
+#burguer.active .line1 {
+  opacity: 0;
+  width: 0;
+}
+
+#burguer.active .line2 {
+  transform: translateY(2.5px) rotate(45deg);
+}
+
+#burguer.active .line3 {
+  transform: translateY(-2.5px) rotate(-45deg);
+}
+
+@media (max-width: 900px) {
+  #nav-desktop {
+    display: none;
+  }
+  #nav-mobile {
+    display: flex;
+  }
+  .nav-logo {
+    position: relative;
+    left: 15px;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    font-size: 10px;
+  }
+  .but {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=navstyle.css.map */
