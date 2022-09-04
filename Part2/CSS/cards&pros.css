@@ -57,27 +57,30 @@
 }
 
 @media (max-width: 900px) {
+  #cards .boxes-container {
+    width: 200%;
+  }
   .card-general-container {
     overflow-x: scroll;
     margin: 20px 0;
-  }
-  .boxes-container {
-    width: 200%;
   }
   .pros-container {
     width: 200%;
   }
 }
 @media (max-width: 600px) {
-  .card-title {
+  #cards .boxes-container .card-container .card-title-container .card-title {
     font-weight: lighter;
   }
-  .card-container .but {
+  #cards .boxes-container .card-container .but {
     font-size: 8px;
     width: 50%;
   }
-  .pros {
+  .pros-container .pros {
     font-size: 7px;
+  }
+  .pros-container .pros-img {
+    width: 40px;
   }
 }
 

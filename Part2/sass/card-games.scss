@@ -10,6 +10,7 @@
     font-weight: lighter;
 }
 
+
 .card-game-link {
     width:33%;
     text-decoration: none;
@@ -56,11 +57,21 @@
         font-size: 10px;
     }
 
-    .card-game-link {
-        width:50%;
-
-        .game-card-text-container {
-            font-size: 8px;
+    .games-bigcontainer{
+        .games-container {
+            .games-section {
+                .template-games-container {
+                    width:150%;
+            
+                    .card-game-link {
+                        width:50%;
+                
+                        .game-card-text-container {
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
         }
     }
 

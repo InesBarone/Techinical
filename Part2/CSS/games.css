@@ -38,9 +38,6 @@
   .games-section {
     overflow: hidden;
   }
-  .games-section .template-games-container {
-    width: 150%;
-  }
 }
 @media (max-width: 600px) {
   .games-bigcontainer {

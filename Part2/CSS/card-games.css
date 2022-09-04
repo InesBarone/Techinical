@@ -50,10 +50,13 @@
   .section-games-title {
     font-size: 10px;
   }
-  .card-game-link {
+  .games-bigcontainer .games-container .games-section .template-games-container {
+    width: 150%;
+  }
+  .games-bigcontainer .games-container .games-section .template-games-container .card-game-link {
     width: 50%;
   }
-  .card-game-link .game-card-text-container {
+  .games-bigcontainer .games-container .games-section .template-games-container .card-game-link .game-card-text-container {
     font-size: 8px;
   }
   .game-button .view-more {

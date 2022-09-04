@@ -66,13 +66,14 @@
 }
 
 @media (max-width:900px) {
+    #cards {
+        .boxes-container {
+            width:200%;
+        }
+    }
     .card-general-container {
         overflow-x: scroll;
         margin: 20px 0;
-    }
-
-    .boxes-container {
-        width:200%;
     }
 
     .pros-container {
@@ -81,16 +82,31 @@
 }
 
 @media (max-width:600px) {
-    .card-title {
-        font-weight: lighter;
+
+    #cards {
+        .boxes-container{
+            .card-container{
+                .card-title-container{
+                    .card-title {
+                        font-weight: lighter;
+                    }
+                }
+
+                .but {
+                    font-size: 8px;
+                    width:50%;
+                }
+            }
+        }
     }
 
-    .card-container .but {
-        font-size: 8px;
-        width:50%;
-    }
+    .pros-container {
+        .pros{
+            font-size: 7px;
+        }
 
-    .pros{
-        font-size: 7px;
+        .pros-img {
+            width:40px;
+        }
     }
 }
