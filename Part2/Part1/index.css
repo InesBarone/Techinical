@@ -103,19 +103,15 @@ main {
     }
 
     .title {
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
     }
 
-    .end-card {
-        flex-direction: column;
-        align-items: center;
-        gap:20px;
+    .ti{
+        font-size: 50px;
     }
 
-    .rate-div {
-        display: flex;
-        justify-content: center;
-        gap:5px;
+    .rate {
+        font-size: 12px;
     }
 }

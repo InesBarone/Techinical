@@ -51,7 +51,7 @@
   transition: all 0.5s;
 }
 .game-button .view-more:hover {
-  background-color: #333333;
+  color: #FF6801;
 }
 
 @media (max-width: 900px) {

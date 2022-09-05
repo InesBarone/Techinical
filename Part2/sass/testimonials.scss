@@ -59,6 +59,7 @@
 @media (max-width:900px) {
     .test-big-cont {
         overflow-x: scroll;
+        scroll-snap-type: none;
         margin: 20px 0;
 
         .testimonials-container{

@@ -12,6 +12,7 @@ const gamesInfo = [
       ["./FE Test v2/assets/fast-and-sexy.jpeg", "FAST & SEXY"],
     ],
     "#6937E6",
+    "0",
   ],
   [
     "LIVE CASINO",
@@ -21,6 +22,7 @@ const gamesInfo = [
       ["./FE Test v2/assets/live-baccarat.jpeg", "LIVE BACCARAT"],
     ],
     "#EFFD5F",
+    "1",
   ],
   [
     "MOST POPULAR GAMES",
@@ -30,6 +32,7 @@ const gamesInfo = [
       ["./FE Test v2/assets/a-night-with-cleo.jpeg", "THE NEW BLACKJACK"],
     ],
     "#E0773E",
+    "2",
   ],
   [
     "GAME TYPES",
@@ -39,6 +42,7 @@ const gamesInfo = [
       ["./FE Test v2/assets/jackpot-sit-and-go.jpeg", "JACKPOT SIT & GO"],
     ],
     "#C8302F",
+    "3",
   ],
   [
     "FEATURED PROMOTIONS",
@@ -54,6 +58,7 @@ const gamesInfo = [
       ],
     ],
     "#6FE3A6",
+    "4",
   ],
   [
     "RECURRING TOURNAMENTS SERIES",
@@ -69,6 +74,7 @@ const gamesInfo = [
       ],
     ],
     "#0D49F5",
+    "5",
   ],
 ];
 

@@ -79,6 +79,7 @@
     }
     .card-general-container {
         overflow-x: scroll;
+        scroll-snap-type: none;
         margin: 20px 0;
     }
 
