@@ -15,13 +15,18 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("/FE Test v2/assets/hero-banner.jpeg");
+    background-image: url("../hero-banner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height:360px;
+    height:320px;
     color:white;
     font-family: rubik, sans-serif;
+
+    // .hero-img {
+    //     object-fit:contain;
+    //     width:100%;
+    // }
 
     .welcome-bonus {
         display: flex;
@@ -55,6 +60,11 @@ main {
             border-radius: 10px;
             background: none;
             color: $orange;
+            transition: background-color 0.5s;
+        }
+
+        .but:hover {
+            background-color: #1A1A1A;
         }
     }
 }
@@ -66,7 +76,7 @@ main {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:650px) {
     .hero-section{
         height:200px;
 

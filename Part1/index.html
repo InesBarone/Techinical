@@ -4,24 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Bitcoin</title>
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="icon"
+      href="../FE Test v2/assets/logo2.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <main>
+      <div class="back-div">
+        <a href="../index.html">
+          <button class="but">
+            <img
+              src="../FE Test v2/assets/arrowleft.png"
+              alt="arrow-left"
+              class="a-left"
+            />
+          </button>
+        </a>
+        <p class="back-text">Back to landing page</p>
+      </div>
       <div class="carousel-container">
-        <button class="left-button but"><</button>
+        <button class="left-button but">
+          <img
+            src="../FE Test v2/assets/arrowleft.png"
+            alt="arrow-left"
+            class="a-left"
+          />
+        </button>
         <div class="carousel-card">
-          <h1 class="title"></h1>
+          <div class="title-container">
+            <h1 class="ti title"></h1>
+            <h1 class="ti title2">BTC</h1>
+          </div>
           <div class="end-card">
-            <p class="description"></p>
-            <div>
-              <span>Rate:</span>
+            <div class="desc-container">
+              <p class="description"></p>
+            </div>
+            <div class="rate-div">
+              <p class="bitc"><strong>Bitcoin</strong></p>
+              <span>Rate: </span>
               <h3 class="rate"></h3>
             </div>
           </div>
         </div>
-        <button class="right-button but">></button>
+        <button class="right-button but">
+          <img
+            src="../FE Test v2/assets/arrowright.png"
+            alt="arrow-left"
+            class="a-left"
+          />
+        </button>
       </div>
     </main>
     <script src="main.js"></script>

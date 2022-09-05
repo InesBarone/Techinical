@@ -11,11 +11,11 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url("/FE Test v2/assets/hero-banner.jpeg");
+  background-image: url("../hero-banner.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 360px;
+  height: 320px;
   color: white;
   font-family: rubik, sans-serif;
 }
@@ -49,6 +49,10 @@ main {
   border-radius: 10px;
   background: none;
   color: #FF6801;
+  transition: background-color 0.5s;
+}
+.hero-section .benefits .but:hover {
+  background-color: #1A1A1A;
 }
 
 @media (max-width: 900px) {
@@ -57,7 +61,7 @@ main {
     font-size: 15px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .hero-section {
     height: 200px;
   }

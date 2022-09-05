@@ -2,15 +2,15 @@ const templatePros = document.getElementById("template-pros").content;
 const pros = document.querySelector(".pros-container");
 
 const prosInfo = [
-  ["/FE Test v2/assets/payouts.png", "FAST & EASY", "PAYOUTS"],
-  ["/FE Test v2/assets/secure.png", "SAFE & SECURE", "DIGITAL ENVIRONMENT"],
-  ["/FE Test v2/assets/trusted.png", "TRUSTED", "SINCE 2016"],
+  ["./FE Test v2/assets/payouts.png", "FAST & EASY", "PAYOUTS"],
+  ["./FE Test v2/assets/secure.png", "SAFE & SECURE", "DIGITAL ENVIRONMENT"],
+  ["./FE Test v2/assets/trusted.png", "TRUSTED", "SINCE 2016"],
   [
-    "/FE Test v2/assets/browser.png",
+    "./FE Test v2/assets/browser.png",
     "NO APP DOWNLOADS",
     "PLAY IN YOUR BROWSERS",
   ],
-  ["/FE Test v2/assets/players.png", "10.000", "PLAYERS DAILY"],
+  ["./FE Test v2/assets/players.png", "10.000", "PLAYERS DAILY"],
 ];
 
 const fillPros = (prosInfo) => {

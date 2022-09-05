@@ -45,14 +45,19 @@ main {
     width:100%;
     margin: 0 5% ;
     padding: 5%;
-    background-color: rgb(255, 255, 255);
     color: white;
     background-color: #1A1A1A;
     border-radius: 20px;
     font-family: rubik, sans-serif;
+    box-shadow: 0px 0px 20px white;
 }
 
-.title {
+.title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ti {
     font-size: 100px;
 }
 
@@ -60,6 +65,17 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.desc-container {
+    width:50%;
+}
+
+.rate-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:50%;
 }
 
 .but {
@@ -71,6 +87,10 @@ main {
    color: white;;
    font-weight: bolder;
    cursor: pointer;
+}
+
+.a-left {
+    width:10px;
 }
 
 @media (max-width:900px) {

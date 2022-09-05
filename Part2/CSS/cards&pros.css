@@ -35,6 +35,11 @@
   background: none;
   border: 2px solid white;
   border-radius: 10px;
+  transition: all 0.5s;
+}
+#cards .boxes-container .card-container .but:hover {
+  border: 1px solid #FF6801;
+  color: #FF6801;
 }
 
 /*PROS */
@@ -68,7 +73,7 @@
     width: 200%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   #cards .boxes-container .card-container .card-title-container .card-title {
     font-weight: lighter;
   }

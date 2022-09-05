@@ -7,36 +7,36 @@ const gamesInfo = [
   [
     "TOP SLOTS",
     [
-      ["/FE Test v2/assets/reels-and-wheels.jpeg", "REELS & WHEELS"],
-      ["/FE Test v2/assets/mystic-wilds.jpeg", "MYSTIC WILDS"],
-      ["/FE Test v2/assets/fast-and-sexy.jpeg", "FAST & SEXY"],
+      ["./FE Test v2/assets/reels-and-wheels.jpeg", "REELS & WHEELS"],
+      ["./FE Test v2/assets/mystic-wilds.jpeg", "MYSTIC WILDS"],
+      ["./FE Test v2/assets/fast-and-sexy.jpeg", "FAST & SEXY"],
     ],
     "#6937E6",
   ],
   [
     "LIVE CASINO",
     [
-      ["/FE Test v2/assets/live-blackjack.jpeg", "LIVE BLACKJACK"],
-      ["/FE Test v2/assets/live-roulette.jpeg", "LIVE ROULETTE"],
-      ["/FE Test v2/assets/live-baccarat.jpeg", "LIVE BACCARAT"],
+      ["./FE Test v2/assets/live-blackjack.jpeg", "LIVE BLACKJACK"],
+      ["./FE Test v2/assets/live-roulette.jpeg", "LIVE ROULETTE"],
+      ["./FE Test v2/assets/live-baccarat.jpeg", "LIVE BACCARAT"],
     ],
     "#EFFD5F",
   ],
   [
     "MOST POPULAR GAMES",
     [
-      ["/FE Test v2/assets/777-deluxe.jpeg", "777 DELUXE"],
-      ["/FE Test v2/assets/golden-buffalo.jpeg", "GOLDEN BUFFALO"],
-      ["/FE Test v2/assets/a-night-with-cleo.jpeg", "THE NEW BLACKJACK"],
+      ["./FE Test v2/assets/777-deluxe.jpeg", "777 DELUXE"],
+      ["./FE Test v2/assets/golden-buffalo.jpeg", "GOLDEN BUFFALO"],
+      ["./FE Test v2/assets/a-night-with-cleo.jpeg", "THE NEW BLACKJACK"],
     ],
     "#E0773E",
   ],
   [
     "GAME TYPES",
     [
-      ["/FE Test v2/assets/cash-games.jpeg", "CASH GAMES"],
-      ["/FE Test v2/assets/zone-poker.jpeg", "ZONE POKER"],
-      ["/FE Test v2/assets/jackpot-sit-and-go.jpeg", "JACKPOT SIT & GO"],
+      ["./FE Test v2/assets/cash-games.jpeg", "CASH GAMES"],
+      ["./FE Test v2/assets/zone-poker.jpeg", "ZONE POKER"],
+      ["./FE Test v2/assets/jackpot-sit-and-go.jpeg", "JACKPOT SIT & GO"],
     ],
     "#C8302F",
   ],
@@ -44,12 +44,12 @@ const gamesInfo = [
     "FEATURED PROMOTIONS",
     [
       [
-        "/FE Test v2/assets/crypto-depositors-freeroll.jpeg",
+        "./FE Test v2/assets/crypto-depositors-freeroll.jpeg",
         "CRYPTO DEPOSITOR'S FREEROLL",
       ],
-      ["/FE Test v2/assets/monthly-milly-tournaments.jpeg", "150K GTD SUNDAY"],
+      ["./FE Test v2/assets/monthly-milly-tournaments.jpeg", "150K GTD SUNDAY"],
       [
-        "/FE Test v2/assets/mad-mondays-tournaments.jpeg",
+        "./FE Test v2/assets/mad-mondays-tournaments.jpeg",
         "MAD MONDAY TOURNAMENTS",
       ],
     ],
@@ -58,13 +58,13 @@ const gamesInfo = [
   [
     "RECURRING TOURNAMENTS SERIES",
     [
-      ["/FE Test v2/assets/crypto-poker-open.jpeg", "CRYPTO POKER OPEN"],
+      ["./FE Test v2/assets/crypto-poker-open.jpeg", "CRYPTO POKER OPEN"],
       [
-        "/FE Test v2/assets/black-diamond-poker-open.jpeg",
+        "./FE Test v2/assets/black-diamond-poker-open.jpeg",
         "11TH BLACK DIAMOND POKER",
       ],
       [
-        "/FE Test v2/assets/super-millions-poker-open.jpeg",
+        "./FE Test v2/assets/super-millions-poker-open.jpeg",
         "SUPER MILLIONS POKER",
       ],
     ],

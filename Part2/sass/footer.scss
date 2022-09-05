@@ -47,6 +47,10 @@ footer {
                 align-items: center;
                 gap: 10px;
             }
+
+            .left-img1 {
+                width:20px;
+            }
         }
     }
 
@@ -67,6 +71,11 @@ footer {
             border-radius: 10px;
             font-size: 20px;
             cursor: pointer;
+            transition: all 0.5s;
+        }
+   
+        .join-bottom:hover {
+            background-color: #ab4403;
         }
         
         .foot-text {
@@ -116,7 +125,7 @@ footer {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:650px) {
     footer {
         .footer-top {
             padding:15%;

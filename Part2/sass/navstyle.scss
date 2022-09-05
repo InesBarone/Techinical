@@ -28,7 +28,12 @@ $orange: #FF6801;
 .nav-a {
     text-decoration: none;
     color:white;
+    transition: color 0.5s;
 }
+
+.nav-a:hover {
+    color:$orange
+} 
 
 .nav-logo-div {
     display: flex;
@@ -40,10 +45,10 @@ $orange: #FF6801;
     }
 }
 
-.nav-ul-container {
+.nav-ul-desktop {
     display: flex;
     justify-content: space-between;
-    gap:20px;
+    gap:5%;
     width:40%; 
 }
 
@@ -58,11 +63,17 @@ $orange: #FF6801;
 .but {
     background-color: $orange;
     width: 70px;
+    padding:0 10px;
     height:30px;
     border-radius: 50px;
     border: none;
     color:white;
     cursor: pointer;
+    transition: all 0.5s;
+}
+
+.but:hover {
+   background-color: #ab4403;
 }
 
 .bit {
@@ -71,6 +82,11 @@ $orange: #FF6801;
     color: $orange;
     width:80px;
     font-size: 10px;
+    transition: all 0.5s;
+}
+
+.bit:hover {
+    background-color: #1A1A1A;
 }
 
 /*MOBILE*/
@@ -165,7 +181,7 @@ $orange: #FF6801;
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:650px) {
     nav {
         font-size: 10px;
     }
